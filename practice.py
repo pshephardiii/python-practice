@@ -54,4 +54,9 @@
 #     n += 1   
 #     print()
 
+# Coding Exercise: Return cube of number
+
+# def cube_of_number(n):
+#     return n ** 3
+
 
