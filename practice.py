@@ -85,3 +85,12 @@
 #     for i in range(2, (n * 2) + 1, 2):
 #         sum = sum + (i ** 2)
 #     return sum
+
+# Coding Exercise: calculate factorial of input
+
+# def calculate_factorial(n):
+#     product = 1
+#     for i in range(1, n + 1):
+#         print(i)
+#         product *= i
+#     return product

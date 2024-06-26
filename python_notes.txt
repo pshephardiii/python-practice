@@ -42,4 +42,11 @@ FUNCTIONS:
 - define function using def keyword
 - return key word still used to return values
 
+function can be given default values
+- ex: def print_string(str="Hello World", no_of_times=5): ...
+Use the equal sign to set default value in parameter space
+
+
+Pass - keyword used as a placeholder (non-operation) in a function to be replaced later
+
 
