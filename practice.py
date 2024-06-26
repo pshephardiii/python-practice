@@ -37,13 +37,21 @@
 # n = 5
 
 # for i in range(n): 
-
-# moves to new line on each iteration
-#     print()
-
 #     for j in range(n):
 
-# prints an * and ends with a space rather than a new line
+## prints an * and ends with a space rather than a new line
 #         print("*", end = '')
+## moves to new line on each iteration
+#     print()
+
+# Coding Exercise: Print Right-Angled Triangle with nested For Loops
+
+# n = 1
+
+# for i in range(0, 5):
+#     for j in range(n):
+#         print('*', end = '')
+#     n += 1   
+#     print()
 
 
