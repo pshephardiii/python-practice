@@ -102,3 +102,8 @@
 # def calculate_simple_interest(principal, interest, duration):
 #     total = principal + (principal * interest * .01 * duration)
 #     return total
+
+# Coding Exercise: can access library 18+
+
+# def can_access_library(age):
+#     return age >= 18
