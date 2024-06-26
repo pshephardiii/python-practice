@@ -77,3 +77,11 @@
 # def calculate_third_angle(first, second):
 #     third = 180 - (first + second)
 #     return third
+
+# Coding Exercise: sum of squares of first n even numbers
+
+# def sum_of_squares(n):
+#     sum = 0
+#     for i in range(2, (n * 2) + 1, 2):
+#         sum = sum + (i ** 2)
+#     return sum
