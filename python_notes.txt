@@ -34,3 +34,6 @@ for i in range(1, 11):
     print(f"5 * {i} = {5 * i}")
 - above will return multiplication table for 5
 (5 * 1 = 5, 5 * 2 = 10, 5 * 3 - 15, etc.)
+
+Nested Loops: same thing as JS with Python syntax
+

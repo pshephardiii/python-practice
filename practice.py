@@ -31,3 +31,19 @@
 #     factorial *= i
     
 # print(factorial)
+
+# Coding Exercise: Print a Square Pattern with Nested For Loops
+
+# n = 5
+
+# for i in range(n): 
+
+# moves to new line on each iteration
+#     print()
+
+#     for j in range(n):
+
+# prints an * and ends with a space rather than a new line
+#         print("*", end = '')
+
+
