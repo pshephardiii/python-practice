@@ -65,4 +65,9 @@
 #     product = a * b * c * d
 #     return product
 
+# Coding Exercise: Return average of five numbers
 
+# def average_of_five_numbers(a, b, c, d, e):
+#     sum = a + b + c + d + e
+#     avg = sum / 5
+#     return avg
