@@ -15,3 +15,11 @@
 #     sum_of_squares += (i * i)
     
 # print(sum_of_squares)
+
+# Coding Exercise: Print Sum of Cubes of First 10 Numbers
+
+# sum_of_cubes = 0
+# for i in range(1, 11):
+#     sum_of_cubes += (i ** 3)
+    
+# print(sum_of_cubes)
