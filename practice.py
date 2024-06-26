@@ -23,3 +23,11 @@
 #     sum_of_cubes += (i ** 3)
     
 # print(sum_of_cubes)
+
+# Coding Exercise: Print Factorial of 6
+
+# factorial = 1
+# for i in range(1, 7):
+#     factorial *= i
+    
+# print(factorial)
