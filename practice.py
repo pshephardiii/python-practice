@@ -107,3 +107,8 @@
 
 # def can_access_library(age):
 #     return age >= 18
+
+# Coding Exercise: can race only if speed exactly 200
+
+# def is_eligible_for_race(max_speed):
+#     return max_speed == 200
