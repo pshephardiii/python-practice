@@ -49,4 +49,9 @@ Use the equal sign to set default value in parameter space
 
 Pass - keyword used as a placeholder (non-operation) in a function to be replaced later
 
+DATA TYPES:
 
+to check data type:
+print(type(whatever))
+
+*** division always results in a float, even if it's a whole number

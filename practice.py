@@ -94,3 +94,11 @@
 #         print(i)
 #         product *= i
 #     return product
+
+# DATA TYPE EXERCISES
+
+# Coding Exercise: Calculate Simple Interest
+
+# def calculate_simple_interest(principal, interest, duration):
+#     total = principal + (principal * interest * .01 * duration)
+#     return total
