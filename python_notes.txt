@@ -1,0 +1,36 @@
+Python Notes:
+
+Declaring variables:
+count = 4
+## Don't need a declaration term, like let or const!
+Assignment: same deal
+
+name rules:
+- variables must start with letter or underscore
+- From second character onwards, you can also use numbers
+
+operators:
+// is floor division... rounds result down to closest whole number
+something like a **= b assigns to a the result of a raised to the power of b
+
+for loop syntax: it's basically a for in loop
+for val in sequence:
+    #Body of for
+
+Range() function - print all numbers from 1 to 9 (end not inclusive)
+for i in range(1,10):
+    print(i)
+
+help(range) ## the help function prints info about the function
+
+For i in range(1, 100, 25): the third number is a step count, so it will print 1, then 26, then 51, then 76
+
+*** indentation is required in python!!
+
+f-strings:
+- formatted string literals
+ex. 
+for i in range(1, 11):
+    print(f"5 * {i} = {5 * i}")
+- above will return multiplication table for 5
+(5 * 1 = 5, 5 * 2 = 10, 5 * 3 - 15, etc.)
