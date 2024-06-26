@@ -71,3 +71,9 @@
 #     sum = a + b + c + d + e
 #     avg = sum / 5
 #     return avg
+
+# Coding Exercise: calculate third angle of triangle
+
+# def calculate_third_angle(first, second):
+#     third = 180 - (first + second)
+#     return third
