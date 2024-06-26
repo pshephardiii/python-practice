@@ -59,4 +59,10 @@
 # def cube_of_number(n):
 #     return n ** 3
 
+# Coding Exercise: Return product of four numbers
+
+# def product_of_four_numbers(a, b, c, d):
+#     product = a * b * c * d
+#     return product
+
 
