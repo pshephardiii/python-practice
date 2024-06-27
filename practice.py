@@ -186,4 +186,18 @@
     
 #     return (squared1 + squared2 == squared3) or (squared1 + squared3 == squared2) or (squared2 + squared3 == squared1)
     
-    
+# Coding Exercise: assigning grades
+
+# def assign_grade(marks):
+#     if (marks >= 90):
+#         return 'A'
+#     elif (marks >= 80):
+#         return 'B'
+#     elif (marks >= 70):
+#         return 'C'
+#     elif (marks >= 60):
+#         return 'D'
+#     elif (marks >= 50):
+#         return 'E'
+#     else:
+#         return 'F'
