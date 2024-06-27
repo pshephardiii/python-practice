@@ -78,7 +78,7 @@ elif is the keyword for else if
 Logical operators:
 - spelled out... and, or, not 
 - Logical (XOR) Operator... ^
-Return True if both sides have opposite Boolean values (basically a negated biconditional)
+Return True if both sides have opposite Boolean values (basically a negated biconditional... exclusive or)
 - != can be used as a negated equality
 
 None - keyword for null
