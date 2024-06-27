@@ -173,3 +173,8 @@ class MotorBike:
 
 honda.increase_speed(150)
 
+LISTS
+
+.append(element) -- adds element to end of list
+.insert(index, element) -- adds element to index position
+.remove(element) -- removes first instance of element from list

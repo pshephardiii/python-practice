@@ -357,4 +357,14 @@
 #     while (index >= 0):
 #         revStr = revStr + str[index]
 #         index -= 1    
-#     return revStr
+#     return 
+
+# LISTS
+
+# Practice Exercise: has greater value
+
+# def has_greater_element(numbers, val):
+#     for number in numbers:
+#         if number > val:
+#             return True
+#     return False
