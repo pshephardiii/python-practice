@@ -95,3 +95,21 @@
 #         sum_list.append(sum)
 #         sum = 0
 #     return sum_list
+
+# Lab 7: Add two matrices of same size
+
+# def add_matrices(matrix1, matrix2):
+#     if not matrix1 or not matrix2:
+#         return []
+        
+#     sum_list_2D = []
+#     rows = len(matrix1)
+    
+#     for i in range(rows):
+#         cols = len(matrix1[i])
+#         sum_list = []
+#         for j in range(cols):
+#             sum = matrix1[i][j] + matrix2[i][j]
+#             sum_list.append(sum)
+#         sum_list_2D.append(sum_list)
+#     return sum_list_2D
