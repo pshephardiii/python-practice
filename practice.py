@@ -154,3 +154,8 @@
 #         return True
 #     else:
 #         return False
+
+# Coding Exercise: find last digit of number
+
+# def get_last_digit(n):
+#     return n % 10
