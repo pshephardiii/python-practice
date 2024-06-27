@@ -200,4 +200,25 @@ in reverse: sortby(list, key = len, reverse = True)
 for item in sorted(list):
     blah
 
+2D LISTS:
+
+initalizing... you can just create individual lists then put them all in a larger list.
+Or you can use nested for-loops.
+Ex.
+rows, cols = 3, 4
+two_d_list = []
+for i in range(rows):
+    row = []
+    for j in range(cols):
+        row.append(i * 10 + j)
+    two_d_list.append(row)
+
+traversing:
+Ex.
+print("2D list traversal:")
+for i in range(rows):
+    for j in range(cols):
+        print(two_d_list[i][j], end=' ')
+    print()  
+
 

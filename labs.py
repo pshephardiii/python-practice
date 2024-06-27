@@ -63,10 +63,19 @@
 #         self.green = 255 - self.green
 #         self.blue = 255 - self.blue
 
-stuff = [1, 2, 3]
+# 2D Lists
 
-other = [4, 5, 6]
+# Practice Exercise: return target index
 
-other += stuff
-
-print(other, stuff)
+# def search_element(list_2D, target):
+#     if not list_2D:
+#         return -1, -1
+#     rows = len(list_2D)
+#     cols = len(list_2D[0])
+    
+#     for i in range(rows):
+#         cols = len(list_2D[i])
+#         for j in range(cols):
+#             if list_2D[i][j] == target:
+#                 return i, j
+#     return -1, -1
