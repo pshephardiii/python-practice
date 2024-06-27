@@ -329,3 +329,10 @@
 #             longest = word
 #             length = len(word)
 #     return longest
+
+# Practice Exercise: is anagram
+
+# def is_anagram(str1, str2):
+#     if sorted(str1) == sorted(str2):
+#         return True
+#     return False
