@@ -49,3 +49,16 @@
 
 #     def distance_to(self, other):
 #         return math.sqrt((other.x - self.x) ** 2 + (other.y - self.y) ** 2)
+
+# Lab 4: RGB Color Class
+
+# class RGBColor:
+#     def __init__(self, red, green, blue):
+#         self.red = red
+#         self.green = green
+#         self.blue = blue
+
+#     def invert(self):
+#         self.red = 255 - self.red
+#         self.green = 255 - self.green
+#         self.blue = 255 - self.blue
