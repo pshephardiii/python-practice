@@ -222,8 +222,18 @@
 #     if n < 2:
 #         return False
         
-#     for i in range(2, n - 1):
+#     for i in range(2, n):
 #         if n % i == 0:
 #             return False
     
 #     return True
+
+#  Practice Exercise: sum of squares up to limit
+
+# def sum_of_squares_upto_limit(lim):
+#     sum = 0
+#     i = 1
+#     while i ** 2 <= lim:
+#         sum += i ** 2
+#         i += 1
+#     return sum
