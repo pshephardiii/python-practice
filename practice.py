@@ -237,3 +237,13 @@
 #         sum += i ** 2
 #         i += 1
 #     return sum
+
+# Practice Exercise: sum of cubes up to limit
+
+# def sum_of_cubes_upto_limit(lim):
+#     sum = 0
+#     i = 1
+#     while i ** 3 <= lim:
+#         sum += i ** 3
+#         i += 1
+#     return sum
