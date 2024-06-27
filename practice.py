@@ -336,3 +336,15 @@
 #     if sorted(str1) == sorted(str2):
 #         return True
 #     return False
+
+# Practice Exercise: is hex string
+
+# import string
+
+# def is_hex_string(str):
+#     if len(str) == 0:
+#         return False
+#     for char in str:
+#         if char not in string.hexdigits:
+#             return False
+#     return True
