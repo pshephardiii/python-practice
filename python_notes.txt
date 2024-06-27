@@ -129,3 +129,37 @@ With strings, the comparison starts with the first characters' ASCII value, and 
 Check string length: len(str)
 
 Reverse text: reversed(str)
+
+print(str * 3) --- prints str three times 
+
+OBJECT ORIENTED PROGRAMMING
+
+Defining class -- class Class_Name:
+blah
+- to instatiate: object_name = Class_Name()
+- add attributes: object_name.attribute_name(attribute_value)
+- ex. india.name('India')
+Access attributes: print(object_name.attribute_name)
+
+Class constructor:
+def __init__(self):
+Ex.
+class MotorBike:
+    def __init__(self, speed):
+        self.speed = speed
+honda = MotorBike(50)
+
+Default values:
+Ex.
+class MotorBike:
+    def __init__(self, speed=50):
+
+- Best practice: define and initialize all instance attributes in the constructor
+Ex: 
+class Planet:
+    def __init__(self, name="Earth"):
+        self.name = name
+        self.speed = 10
+        self.distance_from_sun = 10000
+
+
