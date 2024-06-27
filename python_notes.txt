@@ -83,5 +83,45 @@ Return True if both sides have opposite Boolean values (basically a negated bico
 
 None - keyword for null
 
+ASSIGNMENT CONVENTION:
+if you want to do the following in one line:
+a = 1
+b = 2
+Do this:
+a, b = 1, 2
 
+STRINGS 
 
+.lower: lower cases all of string
+.upper: upper cases all of string
+.capitalize: capitalizes first letter of string 
+
+Boolean checks:
+.islower
+.isupper
+.istitle
+
+check if only digits in string: .isdigit
+check if only alphabets in string: .isalpha
+check if all alphanumeric: .isalnum
+
+check if string ends with a particular character or set of characters: .endswith
+- same for start: .startswith
+
+find specific index of where a substring begins within a string: longerStr.find(subStr)... seems to return first instance of substring
+- returns -1 if substring isn't present
+
+Boolean check for presence of substring: subStr in longerStr
+
+Can access specific characters using indexing, like str[0]
+- can iterate with loops...
+for ch in str:
+    blah blah blah
+
+string module (IMPORTANT)
+need to import first: import string
+- check out the lab on this... you can print out all lower case alphabets, all digits, all punctuation, etc.
+
+comparisons using < and > determined by ASCII value of characters
+- use ord(char) to check the ASCII value
+With strings, the comparison starts with the first characters' ASCII value, and if those are the same, then they compare the second, and so on.

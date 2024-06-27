@@ -278,3 +278,10 @@
 #         num1 = num2
 #         num2 += temp
 #     return num2
+
+# Practice Exercise: is it a vowel
+
+# def is_vowel(char):
+#     if char.lower() in 'aeiou':
+#         return True
+#     return False
