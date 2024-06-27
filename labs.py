@@ -62,3 +62,11 @@
 #         self.red = 255 - self.red
 #         self.green = 255 - self.green
 #         self.blue = 255 - self.blue
+
+stuff = [1, 2, 3]
+
+other = [4, 5, 6]
+
+other += stuff
+
+print(other, stuff)

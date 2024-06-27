@@ -368,3 +368,23 @@
 #         if number > val:
 #             return True
 #     return False
+
+# Practice Exercise: are sums equal
+
+# def are_sums_equal(list1, list2):
+#     if len(list1) == 0 or len(list2) == 0:
+#         return False
+    
+#     sum1 = 0
+#     sum2 = 0
+    
+#     for number in list1:
+#         sum1 += number
+    
+#     for number in list2:
+#         sum2 += number
+    
+#     if sum1 == sum2:
+#         return True
+    
+#     return False

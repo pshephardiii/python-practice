@@ -178,3 +178,18 @@ LISTS
 .append(element) -- adds element to end of list
 .insert(index, element) -- adds element to index position
 .remove(element) -- removes first instance of element from list
+
+check if in list:
+element in list -- boolean
+---- index function 
+list.index(element) -- outputs index number of element
+
+remove element at index - del animals[index]
+adding elements:
+list.extend([val1, val2...])
+list += [val1, val2 ...]
+* Above add to end
+- if only one value, use append()
+
+IMPORTANT: index -1 refers to last item, -2 second to last item, etc.
+
