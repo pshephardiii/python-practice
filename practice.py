@@ -247,3 +247,21 @@
 #         sum += i ** 3
 #         i += 1
 #     return sum
+
+# Practice Exercise: number of digits
+
+# def get_number_of_digits(n):
+#     if n == 0:
+#         return 1
+        
+#     if n < 0:
+#         return -1
+        
+#     digits = 0
+    
+#     while n > 0:
+#         print(n)
+#         n //= 10
+#         digits += 1
+    
+#     return digits
