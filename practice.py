@@ -112,3 +112,17 @@
 
 # def is_eligible_for_race(max_speed):
 #     return max_speed == 200
+
+# Coding Exercise: check for valid triangle
+
+# def is_valid_triangle(angle1, angle2, angle3):
+#     if angle1 <= 0:
+#         return False
+#     if angle2 <= 0:
+#         return False
+#     if angle3 <= 0:
+#         return False
+#     if (angle1 + angle2 + angle3) == 180:
+#         return True
+#     else:
+#         return False

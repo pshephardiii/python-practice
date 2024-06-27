@@ -65,3 +65,11 @@ Booleans: must be capitalized: True and False
 
 NOTE: loose equality is not a thing in Python!
 - the == operator works as strict equality
+
+CONDITIONALS
+
+syntax:
+i = 5
+if i > 3:
+    Blah....
+
