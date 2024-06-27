@@ -164,3 +164,16 @@
 
 # def are_both_even(i, j):
 #     return i % 2 == 0 and j % 2 == 0
+
+# Coding Exercise: check if leap year
+
+# def is_leap_year(year):
+#     div_by_4 = year % 4 == 0
+#     div_by_100 = year % 100 == 0
+#     div_by_400 = year % 400 == 0    
+    
+#     return (div_by_4 and not div_by_100) or (div_by_4 and div_by_100 and div_by_400)
+
+
+    
+    
