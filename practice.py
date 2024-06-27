@@ -305,3 +305,13 @@
 #             return True
 #         i += 1
 #     return False
+
+# Practice Exercise: find right-most digit
+
+# def find_right_most_digit(str):
+#     index = len(str) - 1
+#     while (index >= 0):
+#         if str[index].isdigit():
+#             return int(str[index])
+#         index -= 1
+#     return -1
