@@ -348,3 +348,13 @@
 #         if char not in string.hexdigits:
 #             return False
 #     return True
+
+# Practice Exercise: reverse word
+
+# def reverse_word(str):
+#     revStr = ''
+#     index = len(str) - 1
+#     while (index >= 0):
+#         revStr = revStr + str[index]
+#         index -= 1    
+#     return revStr
