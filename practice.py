@@ -408,3 +408,19 @@
 #         if list1[i] > list1[i + 1]:
 #             return False
 #     return True
+
+# Practice Exercise: two-pointer reverse list
+
+# def reverse_list(list1):
+#     start = 0
+#     end = len(list1) - 1
+#     temp = None
+    
+#     while start <= end:
+#         temp = list1[start]
+#         list1[start] = list1[end]
+#         list1[end] = temp
+#         start += 1
+#         end -= 1
+    
+#     return list1
