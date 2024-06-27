@@ -125,3 +125,5 @@ need to import first: import string
 comparisons using < and > determined by ASCII value of characters
 - use ord(char) to check the ASCII value
 With strings, the comparison starts with the first characters' ASCII value, and if those are the same, then they compare the second, and so on.
+
+Check string length: len(str)

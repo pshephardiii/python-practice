@@ -295,3 +295,13 @@
 #             upper_letters += 1
     
 #     return upper_letters
+
+# Practice Exercise: check for consecutive identical characters
+
+# def has_consecutive_identical_characters(str):
+#     i = 0
+#     while (i < len(str) - 1):
+#         if str[i] == str[i + 1]:
+#             return True
+#         i += 1
+#     return False
