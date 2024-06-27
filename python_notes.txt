@@ -97,9 +97,9 @@ STRINGS
 .capitalize: capitalizes first letter of string 
 
 Boolean checks:
-.islower
-.isupper
-.istitle
+.islower()
+.isupper()
+.istitle()
 
 check if only digits in string: .isdigit
 check if only alphabets in string: .isalpha

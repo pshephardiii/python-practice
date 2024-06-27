@@ -285,3 +285,13 @@
 #     if char.lower() in 'aeiou':
 #         return True
 #     return False
+
+# Practice Exercise: count uppercase letters
+
+# def count_uppercase_letters(str):
+#     upper_letters = 0
+#     for char in str:
+#         if char.isupper():
+#             upper_letters += 1
+    
+#     return upper_letters
