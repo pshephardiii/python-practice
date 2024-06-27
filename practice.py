@@ -437,3 +437,13 @@
 #         i += 1
         
 #     return factors
+
+# Practice Exercise: list of multiples
+
+# def find_multiples(num, lim):
+#     multiples = []
+#     i = 1
+#     while num * i < lim:
+#         multiples.append(num * i)
+#         i += 1
+#     return multiples
