@@ -126,3 +126,15 @@
 #         return True
 #     else:
 #         return False
+
+# Coding Exercise: calculate sum of divisors
+
+# def calculate_sum_of_divisors(n):
+#     sum = 0
+#     if n <= 0:
+#         return sum
+    
+#     for i in range(1, n + 1):
+#         if n % i == 0:
+#             sum += i
+#     return sum
