@@ -65,7 +65,7 @@
 
 # 2D Lists
 
-# Practice Exercise: return target index
+# Lab 5: return target index
 
 # def search_element(list_2D, target):
 #     if not list_2D:
@@ -79,3 +79,19 @@
 #             if list_2D[i][j] == target:
 #                 return i, j
 #     return -1, -1
+
+# Lab 6: find sum of each row
+
+# def sum_of_rows(list_2D):
+#     sum_list = []
+#     sum = 0
+#     rows = len(list_2D)
+#     cols = 0
+    
+#     for i in range(rows):
+#         cols = len(list_2D[i])
+#         for j in range(cols):
+#             sum += list_2D[i][j]
+#         sum_list.append(sum)
+#         sum = 0
+#     return sum_list
