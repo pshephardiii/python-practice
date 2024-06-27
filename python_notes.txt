@@ -162,4 +162,14 @@ class Planet:
         self.speed = 10
         self.distance_from_sun = 10000
 
+METHODS
+
+Ex.
+class MotorBike:
+    def __init__(self, speed=50):
+        self.speed = speed
+    def increase_speed(self, how_much):
+        self.speed += how_much
+
+honda.increase_speed(150)
 
