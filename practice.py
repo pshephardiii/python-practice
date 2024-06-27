@@ -420,7 +420,20 @@
 #         temp = list1[start]
 #         list1[start] = list1[end]
 #         list1[end] = temp
+## alternative method for swap: list1[start], list1[end] = list1[end], list1[start]
 #         start += 1
 #         end -= 1
     
 #     return list1
+
+# Practice Exercise: find all factors
+
+# def find_factors(num):
+#     factors = []
+    
+#     for i in range(1, num + 1):
+#         if num % i == 0:
+#             factors.append(i)
+#         i += 1
+        
+#     return factors
