@@ -32,3 +32,20 @@
 #         else:
 #             self.perimeter = self.side * 4
 #         return self.perimeter
+
+# Lab 3 - 2d Point class
+
+# import math
+
+# class Point:
+
+#     def __init__(self, x, y): 
+#         self.x = x
+#         self.y = y
+
+#     def move(self, dx, dy):
+#         self.x += dx
+#         self.y += dy
+
+#     def distance_to(self, other):
+#         return math.sqrt((other.x - self.x) ** 2 + (other.y - self.y) ** 2)
