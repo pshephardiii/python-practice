@@ -201,3 +201,15 @@
 #         return 'E'
 #     else:
 #         return 'F'
+
+# Practice Exercise: Weather Advisor
+
+# def provide_weather_advisory(temp):
+#     if temp < 0:
+#         return "It's freezing! Wear a heavy coat."
+#     elif temp <= 10:
+#         return "It's cold! Bundle up."
+#     elif temp <= 20:
+#         return "It's cool! A light jacket will do."
+#     else:
+#         return "It's warm! Enjoy the day."
