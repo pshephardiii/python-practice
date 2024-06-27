@@ -388,3 +388,14 @@
 #         return True
     
 #     return False
+
+# Practice Exercise: is list sorted
+
+# def is_list_sorted(list1):
+#     if not list1:
+#         return True
+#     for i in range(0, len(list1) - 1):
+#         if list1[i] != sorted(list1)[i]:
+#             return False
+#     return True
+

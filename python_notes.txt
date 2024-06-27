@@ -193,3 +193,11 @@ list += [val1, val2 ...]
 
 IMPORTANT: index -1 refers to last item, -2 second to last item, etc.
 
+sort by length: sorted(list, key = len)
+in reverse: sortby(list, key = len, reverse = True)
+
+*** if you don't want to modify original list, you can use for loop to iterate like so
+for item in sorted(list):
+    blah
+
+
