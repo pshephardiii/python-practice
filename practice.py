@@ -399,3 +399,12 @@
 #             return False
 #     return True
 
+# alternate:
+
+# def is_list_sorted(list1):
+#     if not list1:
+#         return True
+#     for i in range(0, len(list1) - 2):
+#         if list1[i] > list1[i + 1]:
+#             return False
+#     return True
