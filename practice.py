@@ -315,3 +315,17 @@
 #             return int(str[index])
 #         index -= 1
 #     return -1
+
+# Practice Exercise: find the longest word
+
+# def find_longest_word(str):
+#     length = 0
+#     longest = ''
+#     words = str.split()
+#     for word in words:
+#         if not word.isalpha():
+#             continue
+#         if len(word) > length:
+#             longest = word
+#             length = len(word)
+#     return longest

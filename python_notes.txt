@@ -127,3 +127,5 @@ comparisons using < and > determined by ASCII value of characters
 With strings, the comparison starts with the first characters' ASCII value, and if those are the same, then they compare the second, and so on.
 
 Check string length: len(str)
+
+Reverse text: reversed(str)
