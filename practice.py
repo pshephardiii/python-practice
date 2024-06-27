@@ -265,3 +265,16 @@
 #         digits += 1
     
 #     return digits
+
+# Practice Exercise: next fibonacci number past limit
+
+# def next_fibonacci(lim):
+#     num1 = 0
+#     num2 = 1
+#     temp = 0
+    
+#     while num2 <= lim:
+#         temp = num1
+#         num1 = num2
+#         num2 += temp
+#     return num2
