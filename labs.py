@@ -113,3 +113,25 @@
 #             sum_list.append(sum)
 #         sum_list_2D.append(sum_list)
 #     return sum_list_2D
+
+# LISTS OF STRINGS
+
+# Lab 8 : rotate list of strings
+
+# def rotate_strings(strings, n):
+#     if not strings or n <= 0:
+#         return strings
+    
+#     rounds = 0
+#     while n > rounds:
+#         last = strings[len(strings) - 1]
+#         index = 0
+#         for index in range(len(strings) - 1, -1, -1):
+#             if strings[index] == last:
+#                 continue
+#             else:
+#                 strings[index + 1] = strings[index]
+#             index += 1
+#         strings[0] = last
+#         rounds += 1
+#     return strings
