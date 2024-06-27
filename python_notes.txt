@@ -73,3 +73,10 @@ i = 5
 if i > 3:
     Blah....
 
+Logical operators:
+- spelled out... and, or, not 
+- Logical (XOR) Operator... ^
+Return True if both sides have opposite Boolean values (basically a negated biconditional)
+
+
+

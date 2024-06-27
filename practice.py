@@ -159,3 +159,8 @@
 
 # def get_last_digit(n):
 #     return n % 10
+
+# Coding Exercise: are both numbers even
+
+# def are_both_even(i, j):
+#     return i % 2 == 0 and j % 2 == 0
