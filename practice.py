@@ -174,6 +174,16 @@
     
 #     return (div_by_4 and not div_by_100) or (div_by_4 and div_by_100 and div_by_400)
 
+# Coding Exercise: is it a right angled triangle
 
+# def is_right_angled_triangle(side1, side2, side3):
+#     if side1 < 0 or side2 < 0 or side3 < 0:
+#         return False
+    
+#     squared1 = side1 ** 2
+#     squared2 = side2 ** 2
+#     squared3 = side3 ** 2
+    
+#     return (squared1 + squared2 == squared3) or (squared1 + squared3 == squared2) or (squared2 + squared3 == squared1)
     
     

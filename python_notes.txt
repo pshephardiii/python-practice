@@ -77,6 +77,6 @@ Logical operators:
 - spelled out... and, or, not 
 - Logical (XOR) Operator... ^
 Return True if both sides have opposite Boolean values (basically a negated biconditional)
-
+- != can be used as a negated equality
 
 
