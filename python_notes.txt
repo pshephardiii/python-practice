@@ -235,3 +235,45 @@ Find index alphabet value for a character:
 string.ascii_lowercase.index('z')
 Ex. this would output 25, 'a' would output 0, etc.
 
+ADVANCE OOP
+
+Method within class used to show attributes when printed:
+def __repr__(self):
+    return repr( (attributes_listed_here with self) )
+
+Composition:
+
+Combining simple classes to create more complex ones
+ex. book class containing multiple review objects
+- you'd create a method for adding reviews to the book, but the reviews themselves are instances of a separate review class
+
+Inheritance:
+
+One subclass inherits properties from superclass (pretty sure Bax attacks works this way!)
+
+Creating a subclass: 
+ex. class Pet (Animal):
+    blah
+
+Inherits things from constructor and methods (including repr)
+
+You can have a class inherit from two superclasses
+ex. class Amphibian(WaterAnimal, LandAnimal):
+    blah
+
+superclass constructor:
+
+class Rectangle:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def __repr__(self):
+        return repr( (self.length, self.width) )
+
+    def area(self):
+        return self.length * self.width
+
+class Square(Rectangle):
+    def __init__(self, length):
+        super().__init__(length, length)

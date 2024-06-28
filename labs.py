@@ -212,3 +212,17 @@
 #         return True
 #     else:
 #         return False
+
+# Lab 12: Multiple Inheritance
+
+# class Engine:
+#     def start_engine(self):
+#         return "Engine started"
+
+# class Wheels:
+#     def number_of_wheels(self):
+#         return 4
+
+# class Car(Engine, Wheels): 
+#     def drive(self):
+#         return "Car is driving"
