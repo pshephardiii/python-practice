@@ -162,3 +162,28 @@
 #         new_strings.append(new_string)
             
 #     return new_strings
+
+# Lab 10: alternate merge two lists
+
+# def alternate_merge(list1, list2):
+#     merge_list = []
+    
+#     i = 0
+
+## alternately add items from lists as long as the index is less than both lengths
+#     while i < len(list1) and i < len(list2):
+#         merge_list.append(list1[i])
+#         merge_list.append(list2[i])
+#         i += 1
+
+## this while loop will trigger if list1 is longer than list2   
+#     while i < len(list1):
+#         merge_list.append(list1[i])
+#         i += 1
+
+## this while loop will trigger if list2 is longer than list1
+#     while i < len(list2):
+#         merge_list.append(list2[i])
+#         i += 1
+    
+#     return merge_list
