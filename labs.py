@@ -125,13 +125,40 @@
 #     rounds = 0
 #     while n > rounds:
 #         last = strings[len(strings) - 1]
-#         index = 0
-#         for index in range(len(strings) - 1, -1, -1):
-#             if strings[index] == last:
+#         for i in range(len(strings) - 1, -1, -1):
+#             if strings[i] == last:
 #                 continue
 #             else:
-#                 strings[index + 1] = strings[index]
-#             index += 1
+#                 strings[i + 1] = strings[i]
 #         strings[0] = last
 #         rounds += 1
 #     return strings
+
+# Lab 9: Encode List of Strings
+
+# def encode_strings(strings):
+#     if not strings:
+#         return []
+    
+#     new_strings = []
+
+#     for string in strings:
+       
+#         new_string = ''   
+
+#         for char in string:
+            
+#             if char == 'z':
+#                 char = 'a'
+#             elif char == 'Z':
+#                 char = 'A'
+#             else:
+#                 first_val = ord(char)
+#                 second_val = first_val + 1
+#                 char = chr(second_val)
+
+#             new_string += char
+                
+#         new_strings.append(new_string)
+            
+#     return new_strings

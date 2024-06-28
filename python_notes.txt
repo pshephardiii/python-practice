@@ -221,4 +221,7 @@ for i in range(rows):
         print(two_d_list[i][j], end=' ')
     print()  
 
+ASCII:
+- find value for character: ord(char)
+- find character for value: chr(val)
 
