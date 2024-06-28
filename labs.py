@@ -187,3 +187,28 @@
 #         i += 1
     
 #     return merge_list
+
+# Lab 11: anagram checker using list
+
+# import string
+
+# def is_anagram(str1, str2):
+#     if len(str1) != len(str2):
+#         return False
+    
+#     list1 = [0] * 26
+    
+#     list2 = [0] * 26
+    
+#     for char in str1:
+#         i = string.ascii_lowercase.index(char)
+#         list1[i] += 1
+    
+#     for char in str2:
+#         i = string.ascii_lowercase.index(char)
+#         list2[i] += 1
+    
+#     if list1 == list2:
+#         return True
+#     else:
+#         return False

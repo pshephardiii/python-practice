@@ -225,3 +225,13 @@ ASCII:
 - find value for character: ord(char)
 - find character for value: chr(val)
 
+If you want to sort a list of objects by some attribute, need at top: from operator import attrgetter
+
+Variable arguments syntax --
+def function_name(*args):
+    blah
+
+Find index alphabet value for a character:
+string.ascii_lowercase.index('z')
+Ex. this would output 25, 'a' would output 0, etc.
+
