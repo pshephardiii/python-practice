@@ -277,3 +277,66 @@ class Rectangle:
 class Square(Rectangle):
     def __init__(self, length):
         super().__init__(length, length)
+
+Abstract Classes:
+
+acts as a blueprint for other classes
+--- at top:
+from abc import ABC, abstractmethod
+
+ex.
+class AbstractAnimal(ABC):
+
+    @abstractmethod
+    def bark(self): pass
+
+class Dog(AbstractAnimal):
+
+    def bark(self):
+        print("Bow Wow")
+
+Template Method Pattern:
+- using abstract methods to serve as steps for an algorithm
+- execute method shows the order with which methods should be called
+
+ex.
+
+class Abstractrecipe(ABC):
+
+    def execute(self):
+        self.prepare()
+        self.recipe()
+        self.cleanup()
+
+    @abstractmethod
+    def prepare(self): pass
+
+    @abstractmethod
+    def recipe(self): pass
+
+    @abstractmethod
+    def cleanup(self): pass
+
+class Recipe1(AbstractRecipe):
+
+    def prepare(self):
+        print('do the dishes')
+        print('get raw materials')
+
+    def recipe(self):
+        print('execute the steps')
+    
+    def cleanup(self): pass
+
+Recipe1().execute() 
+--- this will trigger all of the methods outlined in the execute function of the abstract class in the correct order... don't need to call the methods individually
+
+Polymorphism:
+
+- many forms... 
+- same code to call different methods/functions (see polymorphism vid for example)
+
+
+
+
+
