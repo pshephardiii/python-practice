@@ -447,3 +447,8 @@
 #         multiples.append(num * i)
 #         i += 1
 #     return multiples
+
+# Practice Exercise: Return Even Indexes
+
+# def slice_alternate_elements(numbers):
+#     return numbers[::2]
