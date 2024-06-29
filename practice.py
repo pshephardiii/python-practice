@@ -479,3 +479,17 @@
 #     for i in range(0, len(numbers), 3):
 #         numbers[i:i+3] = numbers[i:i+3][::-1]
 #     return numbers
+
+# Coding Exercise: Reorder and eliminate middle
+
+# def reorder_and_eliminate_middle(words):
+#     rev_list = sorted(words, key=len, reverse=True)
+#     mid = len(rev_list) // 2
+
+#     if len(rev_list) % 2 == 0:
+#         del rev_list[mid - 1: mid + 1]
+#     else:
+#         del rev_list[mid: mid + 1]
+    
+#     return rev_list
+
