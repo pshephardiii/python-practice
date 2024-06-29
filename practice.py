@@ -452,3 +452,23 @@
 
 # def slice_alternate_elements(numbers):
 #     return numbers[::2]
+
+# Practice Exercise: Reverse Every Third Chunk
+
+# def reverse_chunks(numbers):
+#     results = []
+#     i = 2
+#     while i < len(numbers):
+#         if i == 2:
+#             rev_chunk = numbers[i::-1]
+#         else:
+#             rev_chunk = numbers[i:i - 3:-1]
+#         results += rev_chunk
+#         i += 3
+    
+#     if i > 2:
+#         results += numbers[len(numbers) - 1:i - 3:-1]
+#     else: 
+#         results += numbers[len(numbers) - 1::-1]
+        
+#     return results
