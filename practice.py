@@ -472,3 +472,10 @@
 #         results += numbers[len(numbers) - 1::-1]
         
 #     return results
+
+# Alternate:
+
+# def reverse_chunks(numbers):
+#     for i in range(0, len(numbers), 3):
+#         numbers[i:i+3] = numbers[i:i+3][::-1]
+#     return numbers
