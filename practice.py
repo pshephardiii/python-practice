@@ -493,3 +493,7 @@
     
 #     return rev_list
 
+# Coding Exercise: Extract Odd Numbers
+
+# def extract_odd_numbers(values):
+#     return [value for value in values if value % 2 != 0]
