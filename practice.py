@@ -497,3 +497,21 @@
 
 # def extract_odd_numbers(values):
 #     return [value for value in values if value % 2 != 0]
+
+# SETS
+
+# Practice Exercise: find intersection
+
+# def find_intersection(num1, num2, limit):
+#     if num1 == 0 or num2 == 0:
+#         return set()
+#     if limit < num1 or limit < num2:
+#         return set()
+
+#     set1 = {i for i in range(num1, limit + 1, num1)}
+#     set2 = {i for i in range(num2, limit + 1, num2)}
+    
+#     return set1 & set2
+
+
+

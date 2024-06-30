@@ -426,4 +426,153 @@ To create a new list containing only elements of a specified length:
 
 numbers_length_four = [number for number in numbers if len(number) == 4]
 
+Error Handling:
+
+import builtins
+help(builtins.NameOfError)
+
+^^^ helps give further information on different kinds of errors
+
+try and except:
+- it's basically a try/catch block
+
+try:
+    blah
+except:
+    blah
+
+You can have multiple except blocks:
+
+Ex.
+
+try:
+    blah
+except TypeError:
+    blah
+except ZeroDivisionError:
+    blah
+
+*** use the name of the specific Python errors... you can only use classes that inherit from BaseException
+
+You can catch multiple exceptions in a single block:
+except (ZeroDivisionError, TypeError):
+
+Print out more info on the error:
+
+except TypeError as error:
+    print(error)
+
+try:
+    blah
+except:
+    blah
+*** What you want to happen if exception doesn't occur vvv
+else:
+    blah
+*** What you want to happen regardless of whether exception runs or not
+finally:
+    blah
+
+Adding an exception in a class:
+
+class Currency:
+
+blah blah blah...
+
+def __add_(self, other):
+    if self.currency != other.currency:
+        raise Exception("Currencies Do Not Match")
+    
+    blah blah blah...
+
+Custom Exception Class:
+
+class CurrenciesDoNotMatchError(Exception): 
+    def __init_(self, message):
+    super().__init__(message)
+
+SETS:
+
+A set cannot contain duplicates (unique values only)
+
+numbers_set = {1, 2, 3, 4}
+
+you can convert a list into a set:
+numbers = [1, 2, 3, 2, 1]
+numbers_set = set(numbers)
+numbers_set will then be : {1, 2, 3}
+
+numbers_set.add(4)
+numbers_set will then be : {1, 2, 3, 4}
+
+numbers_set.remove(1)
+numbers_set will then be : {2, 3, 4}
+
+sets do not support access using index ***
+
+check if element is in set:
+print(element_name in set)
+
+ex. print(2 in numbers_set)
+
+Aggregate functions like min, max, sum, and len can be performed on sets
+
+Union:
+
+used to add all elements from two sets into a single list
+ex. set3 = set1 | set2
+or
+ex. set4 = set1 | set2 | set3
+
+Intersection:
+
+used to find common elements
+set1 = {1, 2, 3}
+set2 = {2, 3, 4}
+set3 = set1 & set2
+result: set3 = {2, 3}
+** can find common values across two or more sets 
+
+Subtraction:
+
+Finds elements that are in the first set and not the second:
+set1 = {1, 2, 3}
+set2 = {2, 3, 4}
+set3 = set1 - set2
+set3 = {1}
+If instead ****
+set3 = set2 - set1
+set3 = {4}
+*** to get all elements unique to each, do this:
+set3 = (set1 - set2) | (set2 - set1)
+
+Set vs List:
+
+- set does not allow duplicates
+- set does not maintain any specific order of elements
+- set cannot be accessed by index
+- set declared with {}
+
+Unpacking:
+
+ex. 
+def print_values(num1, num2, num3):
+    print(num1)
+    print(num2)
+    print(num3)
+
+scores = [1, 2, 3]
+
+print_values(*scores)
+- will print them as integers instead of elements of a list or set
+
+*** Check the puzzles exercise for some more interesting stuff!
+
+get common elements in strings:
+string_1 = "hello"
+string_2 = "world"
+ 
+result = set(string_1) | set(string_2)
+print(result)
+result = {'e', 'w', 'r', 'o', 'h', 'd', 'l'}
 
