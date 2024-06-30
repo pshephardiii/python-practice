@@ -528,3 +528,13 @@
 #         merged_set = merged_set | arg
         
 #     return merged_set
+
+# Alternative:
+
+# def merge_shopping_list(*lists):
+#     if not lists:
+#         return set()
+    
+#     return set.union(*lists)
+
+
