@@ -333,4 +333,17 @@
         
 #     return grade1_subjects & grade2_subjects & grade3_subjects
 
+#TUPLES
+
+# Lab 19: swap elements
+
+# def swap_elements(*input_tuple):
+    
+#     first_element = input_tuple[0]
+#     last_element = input_tuple[-1]
+#     between_elements = input_tuple[1:-1]
+    
+#     result = last_element, *between_elements, first_element
+#     return result
+
 

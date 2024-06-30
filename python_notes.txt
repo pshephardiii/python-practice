@@ -619,3 +619,21 @@ print(result)
 example of creating a dict with original value as key and squared value as value:
 squares = {x: x**2 for x in range(1, 6)}
 print(squares)
+
+
+TUPLES:
+
+tuples are immutable
+
+def create_my_tuple():
+    return 'Ranga', 1981, 'India'
+
+my_tuple = create_my_tuple()
+
+destructuring tuple:
+name, year, country = my_tuple
+
+--- can be accessed with indexing ex. print(my_tuple[0])
+nested tuples handle like dicts in this regard
+
+
