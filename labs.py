@@ -263,3 +263,20 @@
 
 #     def perimeter(self):
 #         return 2 * 3.14 * self.radius
+
+# List Comprehension
+
+# Lab 14: Slice and Double
+
+# def slice_and_double(numbers, a, b):
+
+#     if a >= 0 and b < len(numbers):
+#         numbers[a:b] = [number * 2 for number in numbers[a:b]]
+#     elif a < 0 and b < len(numbers):
+#         numbers[:b] = [number * 2 for number in numbers[:b]]
+#     elif a >= 0 and b >= len(numbers):
+#         numbers[a:] = [number * 2 for number in numbers[a:]]
+#     else:
+#         numbers = [number * 2 for number in numbers]
+        
+#     return numbers
