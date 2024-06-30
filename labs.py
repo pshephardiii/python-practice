@@ -306,4 +306,9 @@
             
 #     return result
 
+# Lab 17: Squares map
+
+# def squares_map(n):
+#     return {x: x**2 for x in range(1, n + 1)}
+
 
