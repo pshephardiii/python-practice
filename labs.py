@@ -311,4 +311,26 @@
 # def squares_map(n):
 #     return {x: x**2 for x in range(1, n + 1)}
 
+# Lab 18: Common Subjects
+
+# def common_subjects(grade1, grade2, grade3):
+    
+#     if grade1 == {} or grade2 == {} or grade3 == {}:
+#         return set()
+    
+#     grade1_subjects = set()
+#     grade2_subjects = set()
+#     grade3_subjects = set()
+    
+#     for student in grade1:
+#         grade1_subjects = grade1[student] | grade1_subjects
+        
+#     for student in grade2:
+#         grade2_subjects = grade2[student] | grade2_subjects
+    
+#     for student in grade3:
+#         grade3_subjects = grade3[student] | grade3_subjects
+        
+#     return grade1_subjects & grade2_subjects & grade3_subjects
+
 
