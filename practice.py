@@ -513,5 +513,8 @@
     
 #     return set1 & set2
 
+# Practice exercise: Identify unique colors
 
+# def unique_colors(set1, set2):
+#     return (set1 - set2) | (set2 - set1)
 
