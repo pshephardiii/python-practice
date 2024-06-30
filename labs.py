@@ -293,4 +293,17 @@
 #             char_count[char] = 1
 #     return char_count
 
+# Lab 16: Counting Word Occurrences
+
+# def count_words(str):
+#     result = {}
+    
+#     for word in str.split():
+#         if word in result:
+#             result[word] += 1
+#         else:
+#             result[word] = 1
+            
+#     return result
+
 
