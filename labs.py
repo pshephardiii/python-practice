@@ -346,4 +346,21 @@
 #     result = last_element, *between_elements, first_element
 #     return result
 
+# Lab 20: Count Occurrences in tuple
 
+# def count_occurrences(input_tuple, target):
+    
+#     if len(input_tuple) == 0:
+#         return 0
+#     freq_counter = {}
+    
+#     for val in input_tuple:
+#         if val in freq_counter and val == target:
+#             freq_counter[val] += 1
+#         else:
+#             freq_counter[val] = 1
+            
+#     if target in freq_counter:
+#         return freq_counter[target]
+#     else:
+#         return 0
