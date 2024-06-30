@@ -518,3 +518,13 @@
 # def unique_colors(set1, set2):
 #     return (set1 - set2) | (set2 - set1)
 
+# Practice Exercise: merge shopping lists
+
+# def merge_shopping_lists(*args):
+    
+#     merged_set = set()
+    
+#     for arg in args:
+#         merged_set = merged_set | arg
+        
+#     return merged_set
