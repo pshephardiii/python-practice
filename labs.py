@@ -364,3 +364,11 @@
 #         return freq_counter[target]
 #     else:
 #         return 0
+
+# Lab 21: Student Summary
+
+# def student_summary(student):
+    
+#     name, age, grade = student
+    
+#     return f"Student Name: {name}, Age: {age}, Grade: {grade}"
